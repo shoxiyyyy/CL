@@ -1,257 +1,70 @@
-class mafia1 {
-        name = "Sklep Mafijny(uzbrojenie)";
-        side = "civ";
-        conditions = "license_civ_mafia1";
+    //Cop Shops
+    class cop_pd {
+        name = "Sklep Policyjny(Uzbrojenie)";
+        side = "cop";
+        conditions = "license_cop_pd";
         items[] = {
-            { "RH_g17", "", 4500, 0, "" },
-            { "RH_g19", "", 4500, 0, "" },
-            { "RH_m9", "", 5250, 0, "" },
-            { "RH_p226", "", 4200, 0, "" },
-            { "RH_vp70", "", 6000, 0, "" },
-            { "RH_gsh18", "", 8000, 0, "" },
-            { "RH_usp", "", 14500, 0, "" },
-            { "RH_kimber", "", 10000, 0, "" },
-            { "RH_m1911", "", 12500, 0, "" }
+            { "Binocular", "", 10, 0, "call life_coplevel >= 1" },
+            { "ItemGPS", "", 10, 0, "call life_coplevel >= 1" },
+            { "ItemMap", "", 10, 0, "call life_coplevel >= 1" },
+            { "ItemCompass", "", 10, 0, "call life_coplevel >= 1" },
+            { "ItemWatch", "", 10, 0, "call life_coplevel >= 1" },
+            { "tf_anprc152", "Radio", 10, 0, "call life_coplevel >= 1" },
+            { "NTRYK_Headset_NV", "Noktowizor", 10, 0, "call life_coplevel >= 1" },
+            { "CG_BATON", "Palka Policyjna", 10, 0, "call life_coplevel >= 1" },
+            { "CG_TELBAT", "Palka Teleskopowa", 10, 0, "call life_coplevel >= 1" },
+            { "CSW_M26C", "Paralizator", 10, 0, "call life_coplevel >= 1" },
+            { "NTRYK_Headset_NV", "", 10, 0, "call life_coplevel >= 1" },
+            { "RH_g17", "", 10, 0, "call life_coplevel >= 1" },
+            { "RH_g19", "", 10, 0, "call life_coplevel >= 1" },
+            { "RH_m9", "", 10, 0, "call life_coplevel >= 1" },
+            { "RH_cz75", "", 10, 0, "call life_coplevel >= 1" },
+            { "RH_p226", "", 10, 0, "call life_coplevel >= 1" },
+            { "RH_sw659", "", 10, 0, "call life_coplevel >= 1" }
+            { "RH_gsh18", "", 10, 0, "call life_coplevel >= 2" },
+            { "RH_uspm", "", 10, 0, "call life_coplevel >= 2" },
+            { "RH_fnp45", "", 10, 0, "call life_coplevel >= 2" },
+            { "RH_fn57", "", 10, 0, "call life_coplevel >= 2" },
+            { "CSW_FN57", "", 10, 0, "call life_coplevel >= 3" },
+            { "hlc_smg_MP5N", "", 10, 0, "call life_coplevel >= 3" },
+            { "CSW_M870", "", 10, 0, "call life_coplevel >= 4" },
+            { "RH_M4A1_ris", "", 10, 0, "call life_coplevel >= 4" },
+            { "RH_bull", "", 10, 0, "call life_coplevel >= 4" },
+            { "RH_M4_ris_m", "", 10, 0, "call life_coplevel >= 5" },
+            { "KA_SCAR_L_Black_60RndMag", "", 10, 0, "call life_coplevel >= 5" }
         };
         mags[] = {
-            { "RH_17Rnd_9x19_g17", "", 100, 0, "" },
-            { "RH_15Rnd_9x19_M9", "", 100, 0, "" },
-            { "RH_15Rnd_9x19_SIG", "", 100, 0, "" },
-            { "RH_18Rnd_9x19_VP", "", 100, 0, "" },
-            { "RH_18Rnd_9x19_gsh", "", 100, 0, "" },
-            { "RH_12Rnd_45cal_usp", "", 100, 0, "" },
-            { "RH_7Rnd_45cal_m1911", "", 100, 0, "" }
+            { "CSW_Taser_Probe_Mag", "", 10, 0, "call life_coplevel >= 1" },
+            { "RH_17Rnd_9x19_g17", "", 10, 0, "call life_coplevel >= 1" },
+            { "RH_15Rnd_9x19_M9", "", 10, 0, "call life_coplevel >= 1" },
+            { "RH_16Rnd_9x19_CZ", "", 10, 0, "call life_coplevel >= 1" },
+            { "RH_15Rnd_9x19_SIG", "", 10, 0, "call life_coplevel >= 1" },
+            { "RH_14Rnd_9x19_sw", "", 10, 0, "call life_coplevel >= 1" },
+            { "nonlethal_swing", "", 10, 0, "call life_coplevel >= 1" }
+            { "RH_18Rnd_9x19_gsh", "", 10, 0, "call life_coplevel >= 2" },
+            { "RH_16Rnd_40cal_usp", "", 10, 0, "call life_coplevel >= 2" },
+            { "RH_15Rnd_45cal_fnp", "", 10, 0, "call life_coplevel >= 2" },
+            { "RH_20Rnd_57x28_FN", "", 10, 0, "call life_coplevel >= 2" },
+            { "CSW_20Rnd_57x28_SS190", "", 10, 0, "call life_coplevel >= 3" },
+            { "hlc_30Rnd_9x19_B_MP5", "", 10, 0, "call life_coplevel >= 3" },
+            { "CSW_M870_8Rnd_buck", "", 10, 0, "call life_coplevel >= 4" },
+            { "CSW_M870_8Rnd_slug", "", 10, 0, "call life_coplevel >= 4" },
+            { "CSW_M870_8Rnd_stun", "Gumowe Kule", 10, 0, "call life_coplevel >= 4" },
+            { "RH_30Rnd_556x45_M855A1", "", 10, 0, "call life_coplevel >= 4" },
+            { "RH_60Rnd_556x45_M855A1", "", 10, 0, "call life_coplevel >= 5" },
+            { "KA_SCAR_L_60rnd_Mk318_SOST_mag", "", 10, 0, "call life_coplevel >= 5" }   
         };
         accs[] = {
-            { "RH_vp70stock", "", 5000, 0, "" }
-        };
-    };
-
-        class mafia2 {
-        name = "Sklep Mafijny(uzbrojenie)";
-        side = "civ";
-        conditions = "license_civ_mafia2";
-        items[] = {
-            { "RH_g17", "", 4500, 0, "" },
-            { "RH_g19", "", 4500, 0, "" },
-            { "RH_m9", "", 5250, 0, "" },
-            { "RH_p226", "", 4200, 0, "" },
-            { "RH_vp70", "", 6000, 0, "" },
-            { "RH_gsh18", "", 8000, 0, "" },
-            { "RH_fnp45", "", 15000, 0, "" },
-            { "RH_fnp45t", "", 18000, 0, "" },
-            { "RH_usp", "", 14500, 0, "" },
-            { "RH_kimber", "", 10000, 0, "" },
-            { "RH_m1911", "", 12500, 0, "" }
-        };
-        mags[] = {
-            { "RH_17Rnd_9x19_g17", "", 100, 0, "" },
-            { "RH_15Rnd_9x19_M9", "", 100, 0, "" },
-            { "RH_15Rnd_9x19_SIG", "", 100, 0, "" },
-            { "RH_18Rnd_9x19_VP", "", 100, 0, "" },
-            { "RH_15Rnd_45cal_fnp", "", 100, 0, "" },
-            { "RH_12Rnd_45cal_usp", "", 100, 0, "" },
-            { "RH_7Rnd_45cal_m1911", "", 100, 0, "" }
-        };
-        accs[] = {
-            { "RH_suppr9", "", 20000, 0, "" },
-            { "RH_X300", "", 5000, 0, "" },
-            { "RH_gemtech9", "", 20000, 0, "" },
-            { "RH_vp70stock", "", 5000, 0, "" },
-            { "RH_docter", "", 5000, 0, "" },
-            { "RH_osprey", "", 20000, 0, "" },
-            { "optic_MRD", "", 5000, 0, "" },
-            { "RH_aacusp", "", 20000, 0, "" }
-        };
-    };
-
-        class mafia3 {
-        name = "Sklep Mafijny(uzbrojenie)";
-        side = "civ";
-        conditions = "license_civ_mafia3";
-        items[] = {
-            { "RH_g17", "", 4500, 0, "" },
-            { "RH_g19", "", 4500, 0, "" },
-            { "RH_m9", "", 5250, 0, "" },
-            { "RH_p226", "", 4200, 0, "" },
-            { "RH_vp70", "", 6000, 0, "" },
-            { "RH_g18", "", 30000, 0, "" },
-            { "RH_tec9", "", 32500, 0, "" },
-            { "RH_gsh18", "", 8000, 0, "" },
-            { "RH_fnp45", "", 15000, 0, "" },
-            { "RH_fnp45t", "", 18000, 0, "" },
-            { "RH_usp", "", 14500, 0, "" },
-            { "RH_mp412", "", 25000, 0, "" },
-            { "CSW_FN57", "", 27500, 0, "" },
-            { "RH_kimber", "", 10000, 0, "" },
-            { "RH_m1911", "", 12500, 0, "" }
-        };
-        mags[] = {
-            { "RH_17Rnd_9x19_g17", "", 100, 0, "" },
-            { "RH_15Rnd_9x19_M9", "", 100, 0, "" },
-            { "RH_15Rnd_9x19_SIG", "", 100, 0, "" },
-            { "RH_18Rnd_9x19_VP", "", 100, 0, "" },
-            { "RH_19Rnd_9x19_g18", "", 100, 0, "" },
-            { "RH_33Rnd_9x19_g18", "", 500, 0, "" },
-            { "RH_32Rnd_9x19_tec", "", 500, 0, "" },
-            { "RH_15Rnd_45cal_fnp", "", 100, 0, "" },
-            { "RH_12Rnd_45cal_usp", "", 100, 0, "" },
-            { "RH_6Rnd_357_Mag", "", 500, 0, "" },
-            { "CSW_20Rnd_57x28_SS190", "", 600, 0, "" },
-            { "RH_7Rnd_45cal_m1911", "", 100, 0, "" }
-        };
-        accs[] = {
-            { "RH_suppr9", "", 20000, 0, "" },
-            { "RH_X300", "", 5000, 0, "" },
-            { "RH_gemtech9", "", 20000, 0, "" },
-            { "RH_vp70stock", "", 5000, 0, "" },
-            { "RH_gemtech45", "", 20000, 0, "" },
-            { "RH_docter", "", 5000, 0, "" },
-            { "RH_osprey", "", 20000, 0, "" },
-            { "optic_MRD", "", 5000, 0, "" },
-            { "RH_aacusp", "", 20000, 0, "" },
-            { "RH_docter", "", 5000, 0, "" },
-            { "RH_CSW_FN57_silencer1", "", 22500, 0, "" }
-        };
-    };
-
-        class mafia4 {
-        name = "Sklep Mafijny(uzbrojenie)";
-        side = "civ";
-        conditions = "license_civ_mafia4";
-        items[] = {
-            { "RH_g17", "", 4500, 0, "" },
-            { "RH_g19", "", 4500, 0, "" },
-            { "RH_m9", "", 5250, 0, "" },
-            { "RH_p226", "", 4200, 0, "" },
-            { "RH_vp70", "", 6000, 0, "" },
-            { "RH_g18", "", 30000, 0, "" },
-            { "RH_tec9", "", 32500, 0, "" },
-            { "RH_gsh18", "", 8000, 0, "" },
-            { "RH_fnp45", "", 15000, 0, "" },
-            { "RH_fnp45t", "", 18000, 0, "" },
-            { "RH_usp", "", 14500, 0, "" },
-            { "RH_mp412", "", 25000, 0, "" },
-            { "CSW_FN57", "", 27500, 0, "" },
-            { "RH_kimber", "", 10000, 0, "" },
-            { "RH_m1911", "", 12500, 0, "" },
-            { "RH_Deagleg", "", 90000, 0, "" },
-            { "RH_Deaglem", "", 125000, 0, "" },
-            { "RH_sbr9", "", 95000, 0, "" }
-        };
-        mags[] = {
-            { "RH_17Rnd_9x19_g17", "", 100, 0, "" },
-            { "RH_15Rnd_9x19_M9", "", 100, 0, "" },
-            { "RH_15Rnd_9x19_SIG", "", 100, 0, "" },
-            { "RH_18Rnd_9x19_VP", "", 100, 0, "" },
-            { "RH_19Rnd_9x19_g18", "", 100, 0, "" },
-            { "RH_33Rnd_9x19_g18", "", 500, 0, "" },
-            { "RH_32Rnd_9x19_tec", "", 500, 0, "" },
-            { "RH_15Rnd_45cal_fnp", "", 100, 0, "" },
-            { "RH_12Rnd_45cal_usp", "", 100, 0, "" },
-            { "RH_6Rnd_357_Mag", "", 500, 0, "" },
-            { "CSW_20Rnd_57x28_SS190", "", 600, 0, "" },
-            { "RH_7Rnd_45cal_m1911", "", 100, 0, "" },
-            { "RH_7Rnd_50_AE", "", 100, 0, "" },
-            { "RH_32Rnd_9mm_M822", "", 1000, 0, "" }
-        };
-        accs[] = {
-            { "RH_suppr9", "", 20000, 0, "" },
-            { "RH_X300", "", 5000, 0, "" },
-            { "RH_gemtech9", "", 20000, 0, "" },
-            { "RH_vp70stock", "", 5000, 0, "" },
-            { "RH_gemtech45", "", 20000, 0, "" },
-            { "RH_docter", "", 5000, 0, "" },
-            { "RH_osprey", "", 20000, 0, "" },
-            { "optic_MRD", "", 5000, 0, "" },
-            { "RH_aacusp", "", 20000, 0, "" },
-            { "RH_docter", "", 5000, 0, "" },
-            { "RH_CSW_FN57_silencer1", "", 22500, 0, "" },
-            { "optic_Yorris", "", 5000, 0, "" },
-            { "optic_ACO_grn", "", 5000, 0, "" },
-            { "optic_Holosight_smg", "", 5000, 0, "" },
-            { "RH_compm4s", "", 5000, 0, "" }    
-        };
-    };
-
-        class mafia5 {
-        name = "Sklep Mafijny(uzbrojenie)";
-        side = "civ";
-        conditions = "license_civ_mafia5";
-        items[] = {
-            { "RH_g17", "", 4500, 0, "" },
-            { "RH_g19", "", 4500, 0, "" },
-            { "RH_m9", "", 5250, 0, "" },
-            { "RH_p226", "", 4200, 0, "" },
-            { "RH_vp70", "", 6000, 0, "" },
-            { "RH_g18", "", 30000, 0, "" },
-            { "RH_tec9", "", 32500, 0, "" },
-            { "RH_gsh18", "", 8000, 0, "" },
-            { "RH_fnp45", "", 15000, 0, "" },
-            { "RH_fnp45t", "", 18000, 0, "" },
-            { "RH_usp", "", 14500, 0, "" },
-            { "RH_mp412", "", 25000, 0, "" },
-            { "CSW_FN57", "", 27500, 0, "" },
-            { "RH_kimber", "", 10000, 0, "" },
-            { "RH_m1911", "", 12500, 0, "" },
-            { "RH_Deagleg", "", 90000, 0, "" },
-            { "RH_Deaglem", "", 125000, 0, "" },
-            { "SMG_02_F", "", 92500, 0, "" },
-            { "SMG_01_F", "", 97500, 0, "" },
-            { "RH_sbr9", "", 95000, 0, "" },
-            { "KA_UMP9", "", 99850, 0, "" },
-            { "hlc_rifle_ak129", "", 160000, 0, "" },
-            { "SMA_L85RIS", "", 175000, 0, "" },
-            { "fow_w_m1a1_thompson", "", 152500, 0, "" },
-            { "fow_w_sten_mk5", "", 139500, 0, "" },
-            { "fow_w_type100", "", 135000, 0, "" },
-            { "fow_w_m1903A1_sniper", "", 250000, 0, "" },
-            { "fow_w_m1918a2", "", 400000, 0, "" },
-
-        };
-        mags[] = {
-            { "RH_17Rnd_9x19_g17", "", 100, 0, "" },
-            { "RH_15Rnd_9x19_M9", "", 100, 0, "" },
-            { "RH_15Rnd_9x19_SIG", "", 100, 0, "" },
-            { "RH_18Rnd_9x19_VP", "", 100, 0, "" },
-            { "RH_19Rnd_9x19_g18", "", 100, 0, "" },
-            { "RH_33Rnd_9x19_g18", "", 500, 0, "" },
-            { "RH_32Rnd_9x19_tec", "", 500, 0, "" },
-            { "RH_15Rnd_45cal_fnp", "", 100, 0, "" },
-            { "RH_12Rnd_45cal_usp", "", 100, 0, "" },
-            { "RH_6Rnd_357_Mag", "", 500, 0, "" },
-            { "CSW_20Rnd_57x28_SS190", "", 600, 0, "" },
-            { "RH_7Rnd_45cal_m1911", "", 100, 0, "" },
-            { "RH_7Rnd_50_AE", "", 100, 0, "" },
-            { "30Rnd_9x21_Mag_SMG_02", "", 1000, 0, "" },
-            { "30Rnd_45ACP_Mag_SMG_01", "", 1000, 0, "" },
-            { "RH_32Rnd_9mm_M822", "", 1000, 0, "" },
-            { "KA_30Rnd_9x19_FMJ_Mag", "", 100, 0, "" },
-            { "hlc_30Rnd_545x39_B_AK", "", 1000, 0, "" },
-            { "SMA_30Rnd_556x45_M855A1", "", 1000, 0, "" },
-            { "fow_30Rnd_45acp", "", 1000, 0, "" },
-            { "fow_32Rnd_9x19_sten", "", 1000, 0, "" },
-            { "fow_32Rnd_8x22", "", 1000, 0, "" },
-            { "fow_5Rnd_762x63", "", 1000, 0, "" },
-            { "fow_20Rnd_762x63", "", 1000, 0, "" },
-
-        };
-        accs[] = {
-            { "RH_suppr9", "", 20000, 0, "" },
-            { "RH_X300", "", 5000, 0, "" },
-            { "RH_gemtech9", "", 20000, 0, "" },
-            { "RH_vp70stock", "", 5000, 0, "" },
-            { "RH_gemtech45", "", 20000, 0, "" },
-            { "RH_docter", "", 5000, 0, "" },
-            { "RH_osprey", "", 20000, 0, "" },
-            { "optic_MRD", "", 5000, 0, "" },
-            { "RH_aacusp", "", 20000, 0, "" },
-            { "RH_docter", "", 5000, 0, "" },
-            { "RH_CSW_FN57_silencer1", "", 22500, 0, "" },
-            { "optic_Yorris", "", 5000, 0, "" },
-            { "optic_ACO_grn", "", 5000, 0, "" },
-            { "optic_Holosight_smg", "", 5000, 0, "" },
-            { "RH_compm4s", "", 5000, 0, "" },
-            { "optic_Hamr", "", 5000, 0, "" }     
+            { "RH_X300", "", 10, 0, "call life_coplevel >= 1" },
+            { "FHQ_optic_AC11704", "", 10, 0, "call life_coplevel >= 3" },
+            { "CSW_FN57_flashlight_normal_2", "", 10, 0, "call life_coplevel >= 3" },
+            { "RH_compm4s", "", 10, 0, "call life_coplevel >= 3" },
+            { "optic_Hamr", "", 10, 0, "call life_coplevel >= 4" },
+            { "RH_ta31rmr_2D", "", 10, 0, "call life_coplevel >= 4" },
+            { "RH_6Rnd_454_Mag", "", 10, 0, "call life_coplevel >= 4" },
+            { "RH_spr_mbs", "", 10, 0, "call life_coplevel >= 5" },
+            { "RH_spr_mbs", "", 10, 0, "call life_coplevel >= 5" },
+            { "RH_ta31rmr_2D", "", 10, 0, "call life_coplevel >= 4" },
+            { "SCAR_10_Inches_Barrel_Silencer", "", 10, 0, "call life_coplevel >= 5" }
         };
     };
