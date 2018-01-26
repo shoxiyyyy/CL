@@ -1,10 +1,9 @@
-    //Cop Shops
-    class cop_pd {
+    class cop_so {
         name = "Sklep Policyjny(Uzbrojenie)";
         side = "cop";
-        conditions = "license_cop_pd";
+        conditions = "license_cop_so";
         items[] = {
-            { "Binocular", "", 10, 0, "call life_coplevel >= 1" },
+                       { "Binocular", "", 10, 0, "call life_coplevel >= 1" },
             { "ItemGPS", "", 10, 0, "call life_coplevel >= 1" },
             { "ItemMap", "", 10, 0, "call life_coplevel >= 1" },
             { "ItemCompass", "", 10, 0, "call life_coplevel >= 1" },
@@ -31,7 +30,8 @@
             { "RH_M4A1_ris", "", 10, 0, "call life_coplevel >= 4" },
             { "RH_bull", "", 10, 0, "call life_coplevel >= 4" },
             { "RH_M4_ris_m", "", 10, 0, "call life_coplevel >= 5" },
-            { "KA_SCAR_L_Black_60RndMag", "", 10, 0, "call life_coplevel >= 5" }
+            { "KA_SCAR_L_Black_60RndMag", "", 10, 0, "call life_coplevel >= 5" },
+            { "RH_m110", "", 10, 0, "call life_coplevel >= 5" },
         };
         mags[] = {
             { "CSW_Taser_Probe_Mag", "", 10, 0, "call life_coplevel >= 1" },
@@ -52,7 +52,8 @@
             { "CSW_M870_8Rnd_stun", "Gumowe Kule", 10, 0, "call life_coplevel >= 4" },
             { "RH_30Rnd_556x45_M855A1", "", 10, 0, "call life_coplevel >= 4" },
             { "RH_60Rnd_556x45_M855A1", "", 10, 0, "call life_coplevel >= 5" },
-            { "KA_SCAR_L_60rnd_Mk318_SOST_mag", "", 10, 0, "call life_coplevel >= 5" }   
+            { "KA_SCAR_L_60rnd_Mk318_SOST_mag", "", 10, 0, "call life_coplevel >= 5" },
+            { "RH_20Rnd_762x51_Mk316LR", "", 10, 0, "call life_coplevel >= 5" }
         };
         accs[] = {
             { "RH_X300", "", 10, 0, "call life_coplevel >= 1" },
@@ -62,9 +63,9 @@
             { "optic_Hamr", "", 10, 0, "call life_coplevel >= 4" },
             { "RH_ta31rmr_2D", "", 10, 0, "call life_coplevel >= 4" },
             { "RH_6Rnd_454_Mag", "", 10, 0, "call life_coplevel >= 4" },
-            { "RH_spr_mbs", "", 10, 0, "call life_coplevel >= 5" },
-            { "RH_spr_mbs", "", 10, 0, "call life_coplevel >= 5" },
             { "RH_ta31rmr_2D", "", 10, 0, "call life_coplevel >= 4" },
-            { "SCAR_10_Inches_Barrel_Silencer", "", 10, 0, "call life_coplevel >= 5" }
+            { "RH_spr_mbs", "", 10, 0, "call life_coplevel >= 5" },
+            { "SCAR_10_Inches_Barrel_Silencer", "", 10, 0, "call life_coplevel >= 5" },
+            { "optic_AMS", "", 10, 0, "call life_coplevel >= 5" }
         };
     };
