@@ -1,4 +1,9 @@
-{ "Binocular", "", 10, 0, "call life_coplevel >= 1" },
+class cop_swat {
+        name = "Sklep Policyjny(Uzbrojenie)";
+        side = "cop";
+        conditions = "license_cop_swat";
+        items[] = {            
+            { "Binocular", "", 10, 0, "call life_coplevel >= 1" },
             { "Rangefinder", "", 10, 0, "call life_coplevel >= 1" },
             { "ItemGPS", "", 10, 0, "call life_coplevel >= 1" },
             { "ItemMap", "", 10, 0, "call life_coplevel >= 1" },
