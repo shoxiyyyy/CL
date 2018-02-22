@@ -1,4 +1,4 @@
-    //Cop Shops
+       //Cop Shops
     class cop_pd {
         name = "Sklep Policyjny(Uzbrojenie)";
         side = "cop";
@@ -165,17 +165,17 @@
             { "RH_sw659", "", 250, 0, "call life_coplevel >= 1" }
             { "RH_gsh18", "", 250, 0, "call life_coplevel >= 1" },
             { "RH_uspm", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_fnp45", "", 15000, 0, "call life_coplevel >= 1" },
-            { "RH_fnp45t", "", 18000, 0, "call life_coplevel >= 1" },,
+            { "RH_fnp45", "", 250, 0, "call life_coplevel >= 1" },
+            { "RH_fnp45t", "", 250, 0, "call life_coplevel >= 1" },,
             { "RH_fn57", "", 250, 0, "call life_coplevel >= 1" },
             { "CSW_FN57", "", 250, 0, "call life_coplevel >= 1" },
             { "CSW_FN57_Ballistic_Shield", "FN57 Z Tarcza", 250, 0, "call life_coplevel >= 1" },
-            { "hlc_rifle_bcmjack", "", 2500, 0, "call life_coplevel >= 1" },
-            { "SMA_M4MOE_SM", "", 2500, 0, "call life_coplevel >= 1" },
-            { "RH_M4A6", "", 2500, 0, "call life_coplevel >= 2" },
-            { "CSW_M870", "", 2500, 0, "call life_coplevel >= 1" },
-            { "RH_M16A6", "", 2500, 0, "call life_coplevel >= 1" },
-            { "RH_M27IAR", "", 2500, 0, "call life_coplevel >= 1" },
+            { "hlc_rifle_bcmjack", "", 250, 0, "call life_coplevel >= 1" },
+            { "SMA_M4MOE_SM", "", 250, 0, "call life_coplevel >= 1" },
+            { "RH_M4A6", "", 250, 0, "call life_coplevel >= 2" },
+            { "CSW_M870", "", 250, 0, "call life_coplevel >= 1" },
+            { "RH_M16A6", "", 250, 0, "call life_coplevel >= 1" },
+            { "RH_M27IAR", "", 250, 0, "call life_coplevel >= 1" },
             { "arifle_SDAR_F", "SDAR", 250, 0, "call life_coplevel >= 1" },
             { "RH_Hk416c", "", 250, 0, "call life_coplevel >= 1" },
             { "RH_Hk416s", "", 250, 0, "call life_coplevel >= 1" },
