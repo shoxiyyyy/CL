@@ -455,14 +455,13 @@
         side = "cop";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-            { "cl_AIA_Chief", "AIA Chief", 50, "call life_coplevel >= 4" },
-            { "cl_AIA_Deputy", "AIA Deputy Chief", 50, "call life_coplevel >= 3" },
+            { "cl_AIA_Chief", "AIA Chief", 50, "call life_coplevel >= 3" },
             { "cl_AIA_Inspector", "AIA Inspector", 50, "call life_coplevel >= 2" },
             { "cl_AIA_Proobie", "AIA Probie Inspector", 50, "call life_coplevel >= 1" }
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" },
-            { "d_aia_beret_chief", "", 50, "call life_coplevel >= 4" },
+            { "d_aia_beret_chief", "", 50, "call life_coplevel >= 3" },
             { "d_aia_beret", "", 50, "call life_coplevel >= 1" },
             { "H_StrawHat", "", 50, "" },
             { "H_StrawHat_Dark", "", 50, "" },
@@ -540,8 +539,7 @@
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-            { "cl_vest_aia_krzysiek", "Krzysiek Wiewior 801", 50, "call life_coplevel >= 4" },
-            { "cl_vest_aia_deputy", "Deputy Chief", 50, "call life_coplevel >= 3" },
+            { "cl_vest_aia_krzysiek", "Krzysiek Wiewior 801", 50, "call life_coplevel >= 3" },
             { "cl_vest_aia_inspector", "Inspector", 50, "call life_coplevel >= 2" },
             { "D_AIA_V", "AIA Vest", 50, "call life_coplevel >= 2" },
             { "cl_vest_aia_probie", "Probie Inspector", 50, "call life_coplevel >= 1" },
