@@ -174,7 +174,8 @@
             { "hlc_rifle_bcmblackjack", "", 250, 0, "call life_coplevel >= 2" },
             { "hlc_rifle_RU5562", "", 250, 0, "call life_coplevel >= 1" },
             { "hlc_rifle_samr2", "", 250, 0, "call life_coplevel >= 2" },
-            { "hlc_rifle_awmagnum_BL", "", 250, 0, "call life_coplevel >= 3" }
+            { "hlc_rifle_awmagnum_BL", "", 250, 0, "call life_coplevel >= 3" },
+            { "hlc_rifle_awcovert_BL", "", 250, 0, "call life_coplevel >= 3" }
         };
         mags[] = {
             { "CSW_Taser_Probe_Mag", "", 250, 0, "call life_coplevel >= 1" },
