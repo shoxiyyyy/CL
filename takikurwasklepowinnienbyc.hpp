@@ -131,10 +131,10 @@
         };
     };
 
-    class cop_swat {
-        name = "Sklep SWAT(Uzbrojenie)";
+    class cop_sert {
+        name = "Sklep SERT(Uzbrojenie)";
         side = "cop";
-        conditions = "license_cop_swat";
+        conditions = "license_cop_sert";
         items[] = {
             { "Binocular", "", 250, 0, "call life_coplevel >= 1" },
             { "Rangefinder", "", 250, 0, "call life_coplevel >= 1" },
