@@ -166,24 +166,11 @@
             { "RH_gsh18", "", 250, 0, "call life_coplevel >= 1" },
             { "RH_uspm", "", 250, 0, "call life_coplevel >= 1" },
             { "RH_fnp45", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_fnp45t", "", 250, 0, "call life_coplevel >= 1" },,
+            { "RH_fnp45t", "", 250, 0, "call life_coplevel >= 1" },
             { "RH_fn57", "", 250, 0, "call life_coplevel >= 1" },
             { "CSW_FN57", "", 250, 0, "call life_coplevel >= 1" },
             { "CSW_FN57_Ballistic_Shield", "FN57 Z Tarcza", 250, 0, "call life_coplevel >= 1" },
-            { "hlc_rifle_bcmjack", "", 250, 0, "call life_coplevel >= 1" },
-            { "SMA_M4MOE_SM", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_M4A6", "", 250, 0, "call life_coplevel >= 2" },
-            { "CSW_M870", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_M16A6", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_M27IAR", "", 250, 0, "call life_coplevel >= 1" },
-            { "arifle_SDAR_F", "SDAR", 250, 0, "call life_coplevel >= 1" },
-            { "RH_Hk416c", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_Hk416s", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_Hk416", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_m1250", "", 250, 0, "call life_coplevel >= 3" },
-            { "RH_SAMR", "", 250, 0, "call life_coplevel >= 2" },
-            { "arifle_SPAR_03_blk_F", "", 250, 0, "call life_coplevel >= 3" },
-            { "KA_CS5", "", 250, 0, "call life_coplevel >= 1" }
+            
         };
         mags[] = {
             { "CSW_Taser_Probe_Mag", "", 250, 0, "call life_coplevel >= 1" },
@@ -198,25 +185,9 @@
             { "RH_15Rnd_45cal_fnp", "", 250, 0, "call life_coplevel >= 1" },
             { "RH_20Rnd_57x28_FN", "", 250, 0, "call life_coplevel >= 1" },
             { "CSW_20Rnd_57x28_SS190", "", 250, 0, "call life_coplevel >= 1" },
-            { "hlc_30rnd_556x45_EPR", "", 250, 0, "call life_coplevel >= 1" },
-            { "SMA_30Rnd_556x45_M855A1", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_30Rnd_68x43_FMJ", "", 250, 0, "call life_coplevel >= 2" },
-            { "CSW_M870_8Rnd_buck", "", 250, 0, "call life_coplevel >= 2" },
-            { "CSW_M870_8Rnd_slug", "", 250, 0, "call life_coplevel >= 2" },
-            { "CSW_M870_8Rnd_stun", "Gumowe Kule", 250, 0, "call life_coplevel >= 1" },
-            { "RH_30Rnd_68x43_FMJ", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_30Rnd_556x45_M855A1", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_60Rnd_556x45_M855A1", "", 250, 0, "call life_coplevel >= 2" },
-            { "20Rnd_556x45_UW_mag", "Podwodny magazynek", 250, 0, "call life_coplevel >= 2" },
-            { "RH_20Rnd_762x51_Mk316LR", "", 250, 0, "call life_coplevel >= 3" }
-            { "20Rnd_762x51_Mag", "", 250, 0, "call life_coplevel >= 2" },
-            { "KA_CS5_250rnd_Mk316_SPR_mag", "", 250, 0, "call life_coplevel >= 3" },
-            { "KA_CS5_250rnd_M948_SLAP_mag", "", 250, 0, "call life_coplevel >= 3" }
+            
         };
         accs[] = {
-            { "RH_suppr9", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_X300", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_gemtech9", "", 250, 0, "call life_coplevel >= 1" },
             { "FHQ_optic_AC11704", "", 250, 0, "call life_coplevel >= 1" },
             { "optic_Arco", "", 250, 0, "call life_coplevel >= 1" },
             { "optic_Arco_blk_F", "", 250, 0, "call life_coplevel >= 1" },
@@ -225,30 +196,18 @@
             { "optic_mrco", "", 250, 0, "call life_coplevel >= 1" },
             { "optic_nightstalker", "", 250, 0, "call life_coplevel >= 3" },
             { "optic_hamr", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_ta31rmr_2D", "", 250, 0, "call life_coplevel >= 1" },
             { "optic_DMS", "", 250, 0, "call life_coplevel >= 1" },
-            { "optic_Holosight", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_eotech553mag", "", 250, 0, "call life_coplevel >= 1" },
+            { "optic_Holosight", "", 250, 0, "call life_coplevel >= 1" },,
             { "FHQ_optic_AIM", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_SFM952V", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_fa556", "", 250, 0, "call life_coplevel >= 2" },
             { "RH_gemtech45", "", 250, 0, "call life_coplevel >= 1" },
             { "RH_docter", "", 2500, 0, "call life_coplevel >= 1" },
             { "RH_osprey", "", 250, 0, "call life_coplevel >= 1" },
             { "optic_MRD", "", 250, 0, "call life_coplevel >= 1" },
             { "CSW_FN57_flashlight_normal_2", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_compm4s", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_m1250sd_t", "", 250, 0, "call life_coplevel >= 3" },
-            { "RH_TD_ACB", "", 250, 0, "call life_coplevel >= 1" },
-            { "bipod_02_F_blk", "", 250, 0, "call life_coplevel >= 1" },
-            { "muzzle_snds_B", "", 250, 0, "call life_coplevel >= 1" },
-            { "KA_CS5_Flashlight", "", 250, 0, "call life_coplevel >= 3" },
-            { "KA_CS5_Silencer", "", 250, 0, "call life_coplevel >= 3" },
             { "CSW_FN57_silencer2", "", 250, 0, "call life_coplevel >= 3" },
             { "CSW_FN57_flashlight_normal_1", "", 250, 0, "call life_coplevel >= 3" },
             { "CSW_FN57_Barska", "", 250, 0, "call life_coplevel >= 3" },
-            { "CSW_FN57_Shield_P", "", 250, 0, "call life_coplevel >= 3" },
-            { "SMA_supp2b_556", "", 250, 0, "call life_coplevel >= 3" }
+            { "CSW_FN57_Shield_P", "", 250, 0, "call life_coplevel >= 3" }
         };
     };
 
