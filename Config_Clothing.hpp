@@ -5,15 +5,16 @@
         side = "cop";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-            { "cl_SO_Sheriff", "Sheriff", 50, "call life_coplevel >= 5" },
-            { "cl_SO_Deputy_Sheriff", "Undersheriff", 50, "call life_coplevel >= 5" },
-            { "cl_SO_Assistant", "Assistant Sheriff", 50, "call life_coplevel >= 5" },
-            { "cl_SO_Captain", "Captain", 50, "call life_coplevel >= 4" },
-            { "cl_SO_Lieutenant", "Lieutenant", 50, "call life_coplevel >= 4" },
-            { "cl_SO_Staff_Sergeant", "Staff Sergeant", 50, "call life_coplevel >= 3" },
-            { "cl_SO_Sergeant", "Sergeant", 50, "call life_coplevel >= 3" },
-            { "cl_SO_Corporal", "Corporal", 50, "call life_coplevel >= 2" },
-            { "cl_SO_Senior_Deputy", "Senior Deputy", 50, "call life_coplevel >= 2" },
+            { "cl_SO_Sheriff", "Sheriff", 50, "call life_coplevel >= 1" },
+            { "cl_SO_Deputy_Sheriff", "Undersheriff", 50, "call life_coplevel >= 1" },
+            { "cl_SO_Assistant", "Assistant Sheriff", 50, "call life_coplevel >= 1" },
+            { "cl_SO_Captain", "Captain", 50, "call life_coplevel >= 1" },
+            { "cl_SO_Lieutenant", "Lieutenant", 50, "call life_coplevel >= 1" },
+            here sergeant first class
+            { "cl_SO_Staff_Sergeant", "Staff Sergeant", 50, "call life_coplevel >= 1" },
+            { "cl_SO_Sergeant", "Sergeant", 50, "call life_coplevel >= 1" },
+            { "cl_SO_Corporal", "Corporal", 50, "call life_coplevel >= 1" },
+            { "cl_SO_Senior_Deputy", "Senior Deputy", 50, "call life_coplevel >= 1" },
             { "cl_SO_Deputy", "Deputy", 50, "call life_coplevel >= 1" },
             { "cl_SO_Probie", "Probie Deputy", 50, "call life_coplevel >= 1" },
             { "U_B_Wetsuit", "", 50, "" }
@@ -25,13 +26,11 @@
             { "M_sheriffhat", "Kapelusz Szeryfowski", 50, "call life_coplevel >= 3" },
             { "sh_capblack1", "", 50, "call life_coplevel >= 1" },
             { "sh_capgray", "", 50, "call life_coplevel >= 1" },
-            { "sh_caplightgray", "", 50, "call life_coplevel >= 1" },
-            { "jamie_pcapgreen", "", 50, "call life_coplevel >= 1" }
-
+            { "sh_caplightgray", "", 50, "call life_coplevel >= 1" }
         };
         glasses[] = {
             { "NONE", $STR_C_Remove_glasses, 0, "" },
-            { "CPE_MK50", "Maska Gazowa", 50, "call life_coplevel >= 2" },
+            { "CPE_MK50", "Maska Gazowa", 50, "call life_coplevel >= 1" },
             { "G_Squares", "", 50, "" },
             { "G_Spectacles", "", 250, "" },
             { "G_Aviator", "", 250, "" },
@@ -86,12 +85,12 @@
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-            { "cl_vest_so_mcdonnel", "Jim McDonnel 201", 50, "call life_coplevel >= 5" },
+            trza zmienic classname na kamze bez imienia { "cl_vest_so_mcdonnel", "Jim McDonnel 201", 50, "call life_coplevel >= 5" },
             { "cl_vest_so_undersheriff", "Undersheriff", 50, "call life_coplevel >= 5" },
             { "cl_vest_so_assistant_sheriff", "Assistant Sheriff", 50, "call life_coplevel >= 5" },
             { "cl_vest_so", "Sheriff Vest", 50, "call life_coplevel >= 3" },
             { "TAC_V_tacv1LC_STF", "", 50, "call life_coplevel >= 3" },
-            { "TAC_V_tacv1_SRF2", "", 50, "call life_coplevel >= 2" },
+            { "TAC_V_tacv1_SRF2", "", 50, "call life_coplevel >= 1" },
             { "EF_SHF_BK", "", 50, "call life_coplevel >= 1" },
             { "A3L_sheriffvest1_Fix", "", 50, "call life_coplevel >= 1" },
             { "V_RebreatherB", "", 50, "call life_coplevel >= 1" }
@@ -102,23 +101,13 @@
         };
     };
 
-    class cop_swat {
-        title = "Ubrania swatowskie";
-        conditions = "license_cop_swat";
+    class cop_sert {
+        title = "Ubrania sertowskie";
+        conditions = "license_cop_sert";
         side = "cop";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-            { "cl_swat_lieutenant_lukas", "Lukas Johnson 801", 50, "call life_coplevel >= 3" },
-            { "cl_swat_staff_sergeant_donald", "Donald Swagger 802", 50, "call life_coplevel >= 3" },
-            { "cl_swat_staff_sergeant_", "Staff Sergeant", 50, "call life_coplevel >= 1" },
-            { "cl_swat_sergeant_lukasz", "Lukasz Swietlak 803", 50, "call life_coplevel >= 2" },
-            { "cl_swat_sergeant", "Sergeant", 50, "call life_coplevel >= 1" },
-            { "cl_swat_po_6", "PO6", 50, "call life_coplevel >= 1" },
-            { "cl_swat_po_5", "PO5", 50, "call life_coplevel >= 1" },
-            { "CPE_SWAT_Uniform_1", "", 50, "call life_coplevel >= 1" },
-            { "CPE_SWAT_Uniform_2", "", 50, "call life_coplevel >= 1" },
-            { "CPE_SWAT_Uniform_3", "", 50, "call life_coplevel >= 1" },
-            { "CPE_SWAT_Uniform_4", "", 50, "call life_coplevel >= 1" },
+            
             { "B_Fem_MUL", "Saper", 50, "call life_coplevel >= 3" },
             { "U_O_Wetsuit", "", 50, "" }
         };
@@ -128,7 +117,6 @@
             { "sh_swat_black", "", 50, "call life_coplevel >= 1" },
             { "sh_swat_green", "", 50, "call life_coplevel >= 1" },
             { "UR_ShirtMask_11", "", 50, "call life_coplevel >= 1" },
-            { "CPE_SWAT_FAST_2", "", 50, "call life_coplevel >= 1" },
             { "TAC_K6C", "Saper", 50, "call life_coplevel >= 3" },
             { "TRYK_R_CAP_BLK", "", 50, "" },
             { "TRYK_r_cap_blk_Glasses", "", 50, "" },
@@ -214,18 +202,12 @@
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-            { "CPE_SWAT_Vest_1", "", 50, "call life_coplevel >= 3" },
-            { "CPE_SWAT_Vest_3", "", 50, "call life_coplevel >= 3" },
-            { "CPE_SWAT_Vest_2", "", 50, "call life_coplevel >= 1" },
-            { "CPE_SWAT_Vest_4", "", 50, "call life_coplevel >= 1" },
             { "EF_SHF_BK", "", 50, "call life_coplevel >= 1" },
             { "V_RebreatherB", "", 50, "call life_coplevel >= 1" },
             { "V_PlateCarrierGL_mtp", "Saper", 50, "call life_coplevel >= 3" }
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-            { "CPE_SWAT_AssaultPack_5", "Pas do Kamizelki 1", 50, "call life_coplevel >= 1" },
-            { "CPE_SWAT_AssaultPack_6", "Pas do Kamizelki 2", 50, "call life_coplevel >= 1" },
             { "D_EF_BLT_M1", "Pas Policyjny", 50, "call life_coplevel >= 1" }
         };
     };
@@ -236,11 +218,11 @@
         side = "cop";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-            { "cl_DTU_Captain", "Captain", 50, "call life_coplevel >= 3" },
-            { "cl_DTU_Lieutenant", "Lieutenant", 50, "call life_coplevel >= 3" },
-            { "cl_DTU_Officer3", "Detective 3", 50, "call life_coplevel >= 2" },
-            { "cl_DTU_Officer2", "Detective 2", 50, "call life_coplevel >= 2" },
-            { "cl_DTU_Officer1", "Detective 1", 50, "call life_coplevel >= 2" },
+            { "cl_DTU_Captain", "Captain", 50, "call life_coplevel >= 1" },
+            { "cl_DTU_Lieutenant", "Lieutenant", 50, "call life_coplevel >= 1" },
+            { "cl_DTU_Officer3", "Detective 3", 50, "call life_coplevel >= 1" },
+            { "cl_DTU_Officer2", "Detective 2", 50, "call life_coplevel >= 1" },
+            { "cl_DTU_Officer1", "Detective 1", 50, "call life_coplevel >= 1" },
             { "cl_DTU_Probie", "Probie Detective", 50, "call life_coplevel >= 1" }
             { "hoodie_dtu_1", "Bluza DTU 1", 50, "call life_coplevel >= 1" },
             { "hoodie_dtu_2", "Bluza DTU 2", 50, "call life_coplevel >= 1" },
@@ -252,7 +234,6 @@
             { "d_dtu_command", "", 50, "call life_coplevel >= 3" },
             { "d_dtu", "", 50, "call life_coplevel >= 1" },
             { "sh_dtu_cap_2", "", 50, "call life_coplevel >= 1" },
-            { "UR_ShirtMask_11", "", 50, "call life_coplevel >= 1" },
             { "H_StrawHat", "", 50, "" },
             { "H_StrawHat_Dark", "", 50, "" },
             { "TRYK_R_CAP_BLK", "", 50, "" },
@@ -350,8 +331,8 @@
         side = "cop";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-            { "cl_AIA_Chief", "AIA Chief", 50, "call life_coplevel >= 3" },
-            { "cl_AIA_Inspector", "AIA Inspector", 50, "call life_coplevel >= 2" },
+            { "cl_AIA_Chief", "AIA Chief", 50, "call life_coplevel >= 1" },
+            { "cl_AIA_Inspector", "AIA Inspector", 50, "call life_coplevel >= 1" },
             { "cl_AIA_Proobie", "AIA Probie Inspector", 50, "call life_coplevel >= 1" }
         };
         headgear[] = {
