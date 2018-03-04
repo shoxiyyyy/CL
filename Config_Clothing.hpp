@@ -116,6 +116,7 @@
             { "sh_swat_com", "", 50, "call life_coplevel >= 3" },
             { "sh_swat_black", "", 50, "call life_coplevel >= 1" },
             { "sh_swat_green", "", 50, "call life_coplevel >= 1" },
+            { "TAC_K6O", "", 50, "call life_coplevel >= 1" },
             { "UR_ShirtMask_11", "", 50, "call life_coplevel >= 1" },
             { "TAC_K6C", "Saper", 50, "call life_coplevel >= 3" },
             { "TRYK_R_CAP_BLK", "", 50, "" },
