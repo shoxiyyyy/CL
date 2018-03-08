@@ -11,13 +11,6 @@
             { "ItemWatch", "", 250, 0, "call life_coplevel >= 1" },
             { "tf_anprc152", "Radio", 250, 0, "call life_coplevel >= 1" },
             { "NTRYK_Headset_NV", "Noktowizor", 250, 0, "call life_coplevel >= 1" },
-            { "CG_BATON", "Palka Policyjna", 250, 0, "call life_coplevel >= 1" },
-            { "CG_TELBAT", "Palka Teleskopowa", 250, 0, "call life_coplevel >= 1" },
-            { "CSW_M26C", "Paralizator", 250, 0, "call life_coplevel >= 1" },
-            { "KA_M7290", "Granat Blyskowy", 2500, 0, "call life_coplevel >= 2" },
-            { "KA_M7A30", "Gaz Lzawiacy", 2500, 0, "call life_coplevel >= 2" },
-            { "KA_M814", "Granat EMP", 2500, 0, "call life_coplevel >= 2" },
-            { "SmokeShellGreen", "", 200, 0, "call life_coplevel >= 1" },
             { "SmokeShell", "", 200, 0, "call life_coplevel >= 1" },
             { "SmokeShellRed", "", 200, 0, "call life_coplevel >= 1" },
             { "SmokeShellYellow", "", 200, 0, "call life_coplevel >= 1" },
@@ -42,28 +35,7 @@
             { "hlc_rifle_RU5562", "", 250, 0, "call life_coplevel >= 1" },
             { "hlc_rifle_samr2", "", 250, 0, "call life_coplevel >= 2" },
             { "hlc_rifle_awmagnum_BL", "", 250, 0, "call life_coplevel >= 3" },
-            { "hlc_rifle_awcovert_BL", "", 250, 0, "call life_coplevel >= 3" }
-        };
-        mags[] = {
-            { "CSW_Taser_Probe_Mag", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_17Rnd_9x19_g17", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_15Rnd_9x19_M9", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_16Rnd_9x19_CZ", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_15Rnd_9x19_SIG", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_14Rnd_9x19_sw", "", 250, 0, "call life_coplevel >= 1" },
-            { "nonlethal_swing", "", 250, 0, "call life_coplevel >= 1" }
-            { "RH_18Rnd_9x19_gsh", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_16Rnd_40cal_usp", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_15Rnd_45cal_fnp", "", 250, 0, "call life_coplevel >= 1" },
-            { "RH_20Rnd_57x28_FN", "", 250, 0, "call life_coplevel >= 1" },
-            { "CSW_20Rnd_57x28_SS190", "", 250, 0, "call life_coplevel >= 1" },
-            { "hlc_30rnd_556x45_EPR", "", 250, 0, "call life_coplevel >= 1" },
-            { "29rnd_300BLK_STANAG", "", 250, 0, "call life_coplevel >= 2" },
-            { "hlc_50rnd_300BLK_STANAG_EPR", "", 250, 0, "call life_coplevel >= 3" },
-            { "150Rnd_556x45_Drum_Mag_F", "", 250, 0, "call life_coplevel >= 3" },
-            { "hlc_5rnd_300WM_FMJ_AWMF", "", 250, 0, "call life_coplevel >= 3" }
-        };
-        accs[] = {
+            { "hlc_rifle_awcovert_BL", "", 250, 0, "call life_coplevel >= 3" },
             { "FHQ_optic_AC11704", "", 250, 0, "call life_coplevel >= 1" },
             { "optic_Arco", "", 250, 0, "call life_coplevel >= 1" },
             { "optic_Arco_blk_F", "", 250, 0, "call life_coplevel >= 1" },
@@ -88,4 +60,24 @@
             { "hlc_muzzle_300blk_KAC", "", 250, 0, "call life_coplevel >= 2" },
             { "hlc_muzzle_556NATO_KAC", "", 250, 0, "call life_coplevel >= 2" }
         };
+        mags[] = {
+            { "CSW_Taser_Probe_Mag", "", 250, 0, "call life_coplevel >= 1" },
+            { "RH_17Rnd_9x19_g17", "", 250, 0, "call life_coplevel >= 1" },
+            { "RH_15Rnd_9x19_M9", "", 250, 0, "call life_coplevel >= 1" },
+            { "RH_16Rnd_9x19_CZ", "", 250, 0, "call life_coplevel >= 1" },
+            { "RH_15Rnd_9x19_SIG", "", 250, 0, "call life_coplevel >= 1" },
+            { "RH_14Rnd_9x19_sw", "", 250, 0, "call life_coplevel >= 1" },
+            { "nonlethal_swing", "", 250, 0, "call life_coplevel >= 1" }
+            { "RH_18Rnd_9x19_gsh", "", 250, 0, "call life_coplevel >= 1" },
+            { "RH_16Rnd_40cal_usp", "", 250, 0, "call life_coplevel >= 1" },
+            { "RH_15Rnd_45cal_fnp", "", 250, 0, "call life_coplevel >= 1" },
+            { "RH_20Rnd_57x28_FN", "", 250, 0, "call life_coplevel >= 1" },
+            { "CSW_20Rnd_57x28_SS190", "", 250, 0, "call life_coplevel >= 1" },
+            { "hlc_30rnd_556x45_EPR", "", 250, 0, "call life_coplevel >= 1" },
+            { "29rnd_300BLK_STANAG", "", 250, 0, "call life_coplevel >= 2" },
+            { "hlc_50rnd_300BLK_STANAG_EPR", "", 250, 0, "call life_coplevel >= 3" },
+            { "150Rnd_556x45_Drum_Mag_F", "", 250, 0, "call life_coplevel >= 3" },
+            { "hlc_5rnd_300WM_FMJ_AWMF", "", 250, 0, "call life_coplevel >= 3" }
+        };
+        accs[] = {};
 };
