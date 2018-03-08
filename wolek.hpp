@@ -34,6 +34,7 @@
             { "hlc_rifle_bcmblackjack", "", 250, 0, "call life_coplevel >= 2" },
             { "hlc_rifle_RU5562", "", 250, 0, "call life_coplevel >= 1" },
             { "hlc_rifle_samr2", "", 250, 0, "call life_coplevel >= 2" },
+            { "CSW_M870", "", 250, 0, "call life_coplevel >= 2" },
             { "hlc_rifle_awmagnum_BL", "", 250, 0, "call life_coplevel >= 3" },
             { "hlc_rifle_awcovert_BL", "", 250, 0, "call life_coplevel >= 3" },
             { "FHQ_optic_AC11704", "", 250, 0, "call life_coplevel >= 1" },
@@ -77,7 +78,10 @@
             { "29rnd_300BLK_STANAG", "", 250, 0, "call life_coplevel >= 2" },
             { "hlc_50rnd_300BLK_STANAG_EPR", "", 250, 0, "call life_coplevel >= 3" },
             { "150Rnd_556x45_Drum_Mag_F", "", 250, 0, "call life_coplevel >= 3" },
-            { "hlc_5rnd_300WM_FMJ_AWMF", "", 250, 0, "call life_coplevel >= 3" }
+            { "hlc_5rnd_300WM_FMJ_AWMF", "", 250, 0, "call life_coplevel >= 3" },
+            { "CSW_M870_8Rnd_buck", "", 250, 0, "call life_coplevel >= 2" },
+            { "CSW_M870_8Rnd_slug", "", 250, 0, "call life_coplevel >= 2" },
+            { "CSW_M870_8Rnd_stun", "Gumowe Kule", 250, 0, "call life_coplevel >= 2" }
         };
         accs[] = {};
 };
